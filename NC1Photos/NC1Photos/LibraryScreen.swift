@@ -126,6 +126,9 @@ struct LibraryScreen: View {
                 
                 Text("Hello! 🇬🇧")
             }
+           .navigationTitle("17 Nov 2022")
+           .navigationBarTitleDisplayMode(.large)
+           .toolbar(.automatic, for: .navigationBar)
        }//NavigationStack
     } //body
     
