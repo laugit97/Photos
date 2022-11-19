@@ -15,6 +15,7 @@ struct ContentView: View {
                 .tabItem{
                     Label("Library", systemImage: "photo.fill.on.rectangle.fill")
                 }
+                .toolbarBackground(.visible, for: .tabBar)
             ForYouScreen()
                 .tabItem{
                     Label("For You", systemImage: "heart.text.square.fill")
@@ -28,8 +29,6 @@ struct ContentView: View {
                     Label("For You", systemImage: "magnifyingglass")
                 }
         }
-        .toolbar(.visible, for: .tabBar)
-        .toolbarBackground(.white, for: .automatic)
     }
 }
 
@@ -38,5 +37,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-//nekonya
