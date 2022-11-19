@@ -22,11 +22,11 @@ struct ContentView: View {
                 }
             AlbumsScreen()
                 .tabItem{
-                    Label("For You", systemImage: "rectangle.stack.fill")
+                    Label("Albums", systemImage: "rectangle.stack.fill")
                 }
             SearchScreen()
                 .tabItem{
-                    Label("For You", systemImage: "magnifyingglass")
+                    Label("Search", systemImage: "magnifyingglass")
                 }
         }
     }
