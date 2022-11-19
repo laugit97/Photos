@@ -11,6 +11,10 @@
 		5D5C8B9E29253DF8000CC2AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C8B9D29253DF8000CC2AD /* ContentView.swift */; };
 		5D5C8BA029253DF9000CC2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C8B9F29253DF9000CC2AD /* Assets.xcassets */; };
 		5D5C8BA329253DF9000CC2AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C8BA229253DF9000CC2AD /* Preview Assets.xcassets */; };
+		5D9C83A72926F5C7001CF5F9 /* LibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C83A62926F5C7001CF5F9 /* LibraryScreen.swift */; };
+		5D9C83A92926F5D4001CF5F9 /* ForYouScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C83A82926F5D4001CF5F9 /* ForYouScreen.swift */; };
+		5D9C83AB2926FC16001CF5F9 /* AlbumsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C83AA2926FC16001CF5F9 /* AlbumsScreen.swift */; };
+		5D9C83AD2926FC2C001CF5F9 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C83AC2926FC2C001CF5F9 /* SearchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5D5C8B9D29253DF8000CC2AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D5C8B9F29253DF9000CC2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5C8BA229253DF9000CC2AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D9C83A62926F5C7001CF5F9 /* LibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScreen.swift; sourceTree = "<group>"; };
+		5D9C83A82926F5D4001CF5F9 /* ForYouScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouScreen.swift; sourceTree = "<group>"; };
+		5D9C83AA2926FC16001CF5F9 /* AlbumsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsScreen.swift; sourceTree = "<group>"; };
+		5D9C83AC2926FC2C001CF5F9 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				5D5C8B9B29253DF8000CC2AD /* NC1PhotosApp.swift */,
 				5D5C8B9D29253DF8000CC2AD /* ContentView.swift */,
+				5D9C83A62926F5C7001CF5F9 /* LibraryScreen.swift */,
+				5D9C83A82926F5D4001CF5F9 /* ForYouScreen.swift */,
+				5D9C83AA2926FC16001CF5F9 /* AlbumsScreen.swift */,
+				5D9C83AC2926FC2C001CF5F9 /* SearchScreen.swift */,
 				5D5C8B9F29253DF9000CC2AD /* Assets.xcassets */,
 				5D5C8BA129253DF9000CC2AD /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D5C8B9E29253DF8000CC2AD /* ContentView.swift in Sources */,
+				5D9C83A92926F5D4001CF5F9 /* ForYouScreen.swift in Sources */,
 				5D5C8B9C29253DF8000CC2AD /* NC1PhotosApp.swift in Sources */,
+				5D9C83A72926F5C7001CF5F9 /* LibraryScreen.swift in Sources */,
+				5D9C83AB2926FC16001CF5F9 /* AlbumsScreen.swift in Sources */,
+				5D9C83AD2926FC2C001CF5F9 /* SearchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
