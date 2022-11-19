@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LibraryScreen: View {
+    
+    @State private var selected = 0
+    
     var body: some View {
        NavigationStack{
             HStack{
@@ -36,17 +39,6 @@ struct LibraryScreen: View {
                 //Text("Hello! 🇬🇧")
                     //.navigationTitle("17 Nov 2022")
                     //.navigationBarBackButtonHidden(true)
-                //Button("Select") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                //}
-                //.buttonStyle(.bordered)
-                //.cornerRadius(15.0)
-                
-                //Button("...") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                //}
-                //.buttonStyle(.bordered)
-                //.cornerRadius(15.0)
             }
             .padding()
             
@@ -131,6 +123,22 @@ struct LibraryScreen: View {
            //.navigationTitle("17 Nov 2022")
            //.navigationBarTitleDisplayMode(.large)
            //.toolbar(.automatic, for: .navigationBar)
+           
+           Picker("Choose course", selection: $selected) {
+               Text("Years")
+                   .tag(3)
+               Text("Months")
+                   .tag(2)
+               Text("Days")
+                   .tag(1)
+               Text("All Photos")
+                   .tag(0)
+           }
+           .pickerStyle(.segmented)
+           .cornerRadius(15.0)
+           .padding()
+           
+           
        }//NavigationStack
     } //body
     
