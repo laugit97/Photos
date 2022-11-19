@@ -23,13 +23,15 @@ struct LibraryScreen: View {
                 .buttonStyle(.bordered)
                 .cornerRadius(15.0)
                 
-                Button("...") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                Menu("...") {
+                    Label("Zoom In", systemImage: "plus.magnifyingglass")
+                    Label("Zoom Out", systemImage: "minus.magnifyingglass")
+                    Label("Aspect Ratio Grid", systemImage: "rectangle.arrowtriangle.2.inward")
+                    Label("Filter", systemImage: "line.horizontal.3.decrease.circle")
+                    Label("Show Map", systemImage: "map")
                 }
                 .buttonStyle(.bordered)
                 .cornerRadius(15.0)
-                
-                
                 
                 //Text("Hello! 🇬🇧")
                     //.navigationTitle("17 Nov 2022")
