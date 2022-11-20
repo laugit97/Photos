@@ -137,7 +137,9 @@ struct LibraryScreen: View {
            //.navigationTitle("17 Nov 2022")
            //.navigationBarTitleDisplayMode(.large)
            //.toolbar{
-               //buttons
+               //ToolbarItem(placement: .navigationBarLeading){
+                   //aiuto
+               //}
            //}
            //.toolbar(.automatic, for: .navigationBar)
        }//NavigationStack
