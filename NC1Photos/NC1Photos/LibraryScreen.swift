@@ -35,10 +35,6 @@ struct LibraryScreen: View {
                 }
                 .buttonStyle(.bordered)
                 .cornerRadius(15.0)
-                
-                //Text("Hello! 🇬🇧")
-                    //.navigationTitle("17 Nov 2022")
-                    //.navigationBarBackButtonHidden(true)
             }
             .padding()
             
@@ -118,7 +114,7 @@ struct LibraryScreen: View {
                     }
                 }//VStack
                 
-                Text("Hello! 🇬🇧")
+                //Text("Hello! 🇬🇧")
             }
            //.navigationTitle("17 Nov 2022")
            //.navigationBarTitleDisplayMode(.large)
@@ -137,6 +133,12 @@ struct LibraryScreen: View {
            .pickerStyle(.segmented)
            .cornerRadius(15.0)
            .padding()
+           
+           //.navigationTitle("17 Nov 2022")
+           //.navigationBarTitleDisplayMode(.inline)
+           //.toolbar{
+                //buttons here
+           //}
        }//NavigationStack
     } //body
     
