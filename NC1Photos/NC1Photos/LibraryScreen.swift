@@ -35,10 +35,6 @@ struct LibraryScreen: View {
                 }
                 .buttonStyle(.bordered)
                 .cornerRadius(15.0)
-                
-                //Text("Hello! 🇬🇧")
-                    //.navigationTitle("17 Nov 2022")
-                    //.navigationBarBackButtonHidden(true)
             }
             .padding()
             
@@ -118,11 +114,8 @@ struct LibraryScreen: View {
                     }
                 }//VStack
                 
-                Text("Hello! 🇬🇧")
-            }
-           //.navigationTitle("17 Nov 2022")
-           //.navigationBarTitleDisplayMode(.large)
-           //.toolbar(.automatic, for: .navigationBar)
+                //Text("Hello! 🇬🇧")
+            }//ScrollView
            
            Picker("Choose Photo Date", selection: $selected) {
                Text("Years")
@@ -137,6 +130,13 @@ struct LibraryScreen: View {
            .pickerStyle(.segmented)
            .cornerRadius(15.0)
            .padding()
+           
+           //.navigationTitle("17 Nov 2022")
+           //.navigationBarTitleDisplayMode(.large)
+           //.toolbar{
+               //buttons
+           //}
+           //.toolbar(.automatic, for: .navigationBar)
        }//NavigationStack
     } //body
     
