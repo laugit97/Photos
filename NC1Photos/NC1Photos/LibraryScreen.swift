@@ -115,7 +115,10 @@ struct LibraryScreen: View {
                 }//VStack
                 
                 //Text("Hello! 🇬🇧")
-            }//ScrollView
+            }
+           //.navigationTitle("17 Nov 2022")
+           //.navigationBarTitleDisplayMode(.large)
+           //.toolbar(.automatic, for: .navigationBar)
            
            Picker("Choose Photo Date", selection: $selected) {
                Text("Years")
